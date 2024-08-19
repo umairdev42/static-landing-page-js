@@ -1,0 +1,766 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section Design Starts Here */
+.heroUp {
+    background-image: url("https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/66d42abf99e45b1b9fdc4fd4/coffe-shop-with-wooden-walls-unfocused.jpg");
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    background-color: white;
+    opacity: 0.65;
+    text-align: center;
+    width: 50%;
+    padding: 10px;
+}
+
+.heroHeading {
+    /* font-family: "Montserrat, sans-serif"; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 32pt;
+    margin: 0 5px;
+}
+
+.heroPara {
+    /* font-family: "Ubuntu,sans-serif"; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 14pt;
+}
+
+.hero-buttons {
+    padding: 5px;
+    margin-top: 20px;
+
+}
+
+.HleftB {
+    margin-right: 50px;
+    padding: 20px;
+    border: none;
+    background-color: #519ff0;
+    color: white;
+    width: 200px;
+}
+
+.HrightB {
+    margin-left: 50px;
+    padding: 20px;
+    border: none;
+    background-color: #e6372d;
+    color: white;
+    width: 200px;
+}
+
+
+.heroDown {
+    background-color: #519ff0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroDownText {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+.heroDownForm {
+    padding: 20px;
+    background-color: white;
+    width: 50%;
+}
+
+.heroFinput {
+    padding: 10px;
+    width: 35%;
+    border: 1px solid rgb(194, 194, 194);
+}
+
+.formBtn {
+    padding: 10px;
+    width: 15%;
+    color: white;
+    border: none;
+    background-color: #e6372d;
+}
+
+.heroFinput::placeholder {
+    color: rgb(194, 194, 194);
+}
+
+/* Hero Section Design Ends Here */
+
+
+
+/* Services Section Design Starts Here */
+.services {
+    background-color: #f2f2f2;
+    height: 600px;
+    padding: 20px;
+}
+
+.service-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.serviceText {
+    text-align: center;
+    padding: 20px;
+    max-width: 65%;
+}
+
+.serviceHeading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 32pt;
+}
+
+.servicePara {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    line-height: 35px;
+}
+
+.serviceCards {
+    display: flex;
+    width: 100%;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sCard1,
+.sCard2,
+.sCard3 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 22%;
+    background-color: white;
+}
+
+.sCardIco {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sCardIcoSpan {
+    background-color: #e6372d;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.fa-mobile-screen-button,
+.fa-lightbulb,
+.fa-gear {
+    color: white;
+    font-size: 48pt;
+    margin-top: 20px;
+}
+
+.sCardLink::after {
+    content: "\00BB";
+}
+
+/* Services Section Design Ends Here */
+
+
+/* Call Service Section Design Starts Here */
+.callService {
+    padding: 20px;
+}
+
+.callServiceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px 0;
+}
+
+.callSup,
+.callSdown {
+    display: flex;
+    max-width: 100%;
+    gap: 10px;
+}
+
+.callSup1 {
+    background-image: url("https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/0634f7b27f5a5add92e8ff1d/workers-considering-term-agreement.jpg");
+    width: 400px;
+    height: 300px;
+    background-size: cover;
+}
+
+.callSup2 {
+    width: 400px;
+    height: 300px;
+    background-color: #519ff0;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.callSup1Heading {
+    font-size: 28pt;
+}
+
+.callSup1Para {
+    font-size: 16pt;
+    margin: 0 auto;
+}
+
+.callSup3 {
+    background-image: url("https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/56aa161d850b51ff83a06b9c/smiling-female-business-leader-with-arms-crossed.jpg");
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+}
+
+.callSdown1 {
+    width: 400px;
+    height: 300px;
+    background-color: #f2f2f2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.callSdown1Ico {
+    background-color: #e6372d;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.fa-figma,
+.fa-book-atlas {
+    color: white !important;
+    font-size: 48pt !important;
+    border-radius: 50% !important;
+    margin-top: 15px !important;
+}
+
+.callSdown2 {
+    background-image: url("https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/84534398b31a54c3a136cea7/modern-building-nadir-shoot.jpg");
+    background-size: cover;
+    width: 400px;
+    height: 300px;
+}
+
+.callSdown3 {
+    width: 400px;
+    height: 300px;
+    background-color: #f2f2f2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.callSdown3Para,
+.callSdown1Para {
+    font-size: 16pt;
+}
+
+/* Call Service Section Design Ends Here */
+
+
+
+/* Counter Section Design Starts Here */
+.counter {
+    padding: 20px;
+}
+
+.counterContainer {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.counterText {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.counterTextHeading {
+    margin: 0;
+    font-size: 32pt;
+}
+
+.counterCards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    width: 90%;
+    gap: 20px;
+}
+
+.counterCard1,
+.counterCard2,
+.counterCard3 {
+    width: 400px;
+    height: 350px;
+    text-align: center;
+    padding: 10px;
+}
+
+.counterCard1 {
+    background-color: #519ff0;
+    color: white;
+}
+
+.counterCard2 {
+    background-color: #e6372d;
+    color: white;
+}
+
+.counterCard3 {
+    background-color: #f2f2f2;
+    color: black;
+}
+
+.counterCardHeading {
+    font-size: 48pt;
+}
+
+.counterCardPara {
+    font-size: 14pt;
+}
+
+/* Counter Section Design Ends Here */
+
+
+
+
+/* Partners Section Design Starts Here */
+.partners {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+.partnerContainer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.partnerLeft {
+    max-width: 30%;
+}
+
+.partnerImg {
+    max-width: 400px;
+}
+
+.partnerLeftPara {
+    font-size: 14pt;
+    margin: 30px 0;
+}
+
+.readMorePartner {
+    color: white;
+    font-weight: bold;
+    background-color: #519ff0;
+    border: none;
+    width: 200px;
+    height: 50px;
+    padding: 5px;
+}
+
+.partnerRight {
+    max-width: 25%;
+    position: relative;
+    right: 15%;
+}
+
+.webinarSec {
+    background-color: #f2f2f2;
+    width: 500px;
+    height: 50px;
+    padding: 20px;
+}
+
+.webinarText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.webinarTextHeading {
+    font-weight: bold;
+}
+
+.plusIcoSpan {
+    background-color: #e6372d;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.fa-plus {
+    color: white;
+    font-size: 18pt;
+    margin-top: 12px;
+}
+
+.webinarRightSecText {
+    font-weight: bold;
+    font-size: 12pt;
+    width: 500px;
+    line-height: 25px;
+}
+
+.webinarList {
+    font-size: 14pt;
+    width: 500px;
+    line-height: 40px;
+    list-style-type: none;
+}
+
+.webinarList li::before {
+    content: "~";
+    margin-right: 10px;
+}
+
+.webinarSec1,
+.webinarSec2 {
+    width: 500px;
+    padding: 10px;
+}
+
+/* Partners Section Design Ends Here */
+
+
+
+/* Mission Section Design Starts Here */
+.mission {
+    background-color: #519ff0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.missionContainer {
+    margin: 50px auto;
+}
+
+.missionSubHeading {
+    font-size: 16pt;
+    font-weight: lighter;
+}
+
+.missionHeading {
+    font-size: 28pt;
+}
+
+.readMoreMission {
+    color: white;
+    font-weight: bold;
+    background-color: #e6372d;
+    width: 200px;
+    height: 50px;
+    border: none;
+    padding: 5px;
+}
+
+/* Mission Section Design Ends Here */
+
+
+
+
+/* Team Section Design Starts Here */
+.team {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20pxm;
+    height: 700px;
+}
+
+.teamContainer {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamText {
+    text-align: center;
+    width: 50%;
+}
+
+.teamHeading {
+    font-size: 38pt;
+    font-weight: bolder;
+}
+
+.teamPara {
+    font-size: 17pt;
+    margin-bottom: 50px;
+}
+
+.teamCards {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    gap: 20px;
+}
+
+.teamCardLeft,
+.teamCardRight {
+    display: flex;
+    width: 50%;
+    background-color: white;
+    padding: 30px;
+}
+
+.teamProfileImg {
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.teamCardBodySubHeading {
+    color: grey;
+}
+
+.teamCardBodyText {
+    color: grey;
+    font-size: 14pt;
+    text-align: justify;
+}
+
+.fa-brands {
+    color: #519ff0;
+    margin-right: 30px;
+    font-size: 22pt;
+}
+
+/* Team Section Design Ends Here */
+
+
+
+/* Plan Cards Section Design Starts Here */
+.plans {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.plansContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.planCards {
+    text-align: center;
+    background-color: white;
+}
+
+.planCard1Header,
+.planCard3Header {
+    background-color: #e6372d;
+    width: 300px;
+    color: white;
+    padding: 20px;
+}
+
+.planCard2Header {
+    background-color: #519ff0;
+    width: 300px;
+    color: white;
+    padding: 20px;
+}
+
+.planCardHeaderSubH {
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 48pt;
+    font-weight: 900;
+    margin-right: 5px;
+}
+
+.planCardHeaderPrice {
+    font-size: 18pt;
+}
+
+.planCardUl {
+    text-align: center;
+    margin: 60px 0;
+    list-style: none;
+}
+
+.planCardUl li:before {
+    content: "■";
+    margin-right: 10px;
+}
+
+.planCardUl li {
+    line-height: 22pt;
+}
+
+.planCardButton1,
+.planCardButton3 {
+    background-color: rgb(221, 221, 221);
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-weight: 900;
+    font-size: 12pt;
+}
+
+.planCardButton1:after,
+.planCardButton3:after {
+    content: "\2192";
+    font-size: 22pt;
+    margin-left: 5px;
+}
+
+.planCardButton2 {
+    background-color: #519ff0;
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    font-weight: 900;
+    font-size: 12pt;
+}
+
+.planCardButton2:after {
+    content: "\2192";
+    font-size: 22pt;
+    margin-left: 5px;
+}
+
+/* Plan Cards Section Design Ends Here */
+
+
+
+/* Clients Section Design Starts Here */
+.clients {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+.clientsContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.clientsHeading {
+    font-size: 32pt;
+    font-weight: 700;
+}
+
+.clientsLogos {
+    padding: 30px;
+}
+
+.cLogoImg {
+    width: 100px;
+    margin: 0 20px;
+}
+
+/* Clients Section Design Ends Here */
+
+
+
+/* Newsletter Section Design Starts Here */
+.newsletter {
+    background-image: url("https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/cc0389f5f30751dbba6c646e/blurred-abstract-background-interior-view-looking-out-toward-empty-office-lobby-entrance-doors-glass-curtain-wall-with-frame.jpg");
+    background-size: cover;
+    height: 700px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.newsletterContainer {
+    background-color: white;
+    opacity: 0.65;
+    width: 60%;
+    height: 60%;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    left: 20%;
+    top: 20%;
+}
+.newsletterHeading {
+    font-size: 32pt;
+}
+.newsletterPara {
+    font-size: 20pt;
+}
+.newsletterInput {
+    border: 0.5px solid black;
+    width: 500px;
+    height: 50px;
+    background-color: white;
+}
+.newsletterSubmit {
+    width: 100px;
+    height: 50px;
+    border: none;
+    color: white;
+    font-weight: 800;
+    background-color: red;
+}
+/* Newsletter Section Design Ends Here */
+
+
+
+/* Footer Design Starts Here */
+footer {
+    padding: 30px;
+    text-align: center;
+    background-color: #333333;
+    color: white;
+}
+/* Footer Design Ends Here */
